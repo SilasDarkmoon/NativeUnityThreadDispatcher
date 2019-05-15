@@ -1,0 +1,19 @@
+{
+
+    "name": "cn.capstones.n.unitythreaddispatcher",
+
+    "displayName": "Capstone Native UnityThreadDispatcher",
+
+    "version": "1.0.0",
+
+    "unity": "2018.3",
+
+    "description": "Capstone Native UnityThreadDispatcher",
+
+    "keywords": [
+        "unity"
+    ],
+
+    "category": "Unity"
+
+}
