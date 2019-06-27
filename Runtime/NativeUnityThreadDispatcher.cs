@@ -123,7 +123,7 @@ namespace Capstones.UnityEngineEx.Native
                 NativeUnityThreadDispatcher.TrigEventInUnityThread();
             }
         }
-        [UnityEngine.RuntimeInitializeOnLoadMethod]
+        [UnityEngine.RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         private static void OnUnityStart()
         {
             UnityThreadDispatcher.NativeUnityThreadDispatcherWrapper = new NativeUnityThreadDispatcherWrapper();
