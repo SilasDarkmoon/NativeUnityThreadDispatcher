@@ -12,7 +12,7 @@ namespace Capstones.UnityEngineEx.Native
         {
             get
             {
-#if UNITY_IOS && !UNITY_EDITOR && ENABLE_NATIVEUNITYTHREADDISPATCHER
+#if (UNITY_IOS && !UNITY_EDITOR || ENABLE_IL2CPP) && ENABLE_NATIVEUNITYTHREADDISPATCHER
                 if (!NativeImported._Linked)
                 {
                     NativeImported._Linked = true;
